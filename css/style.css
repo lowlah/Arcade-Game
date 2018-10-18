@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+/* Styles the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 0;
+    width: 30%;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    border-bottom: 1px solid green;
+    padding: 2px 16px;
+
+}
+
+.modal-body {
+    padding: 2px 30px;
+    font-size: 1.5em;
+}
+
+.modal-footer {
+    padding: 2px 20px;
+    background-color: green;
+}
+
+/* Styles the modal close button */
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
