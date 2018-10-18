@@ -3,7 +3,7 @@ This is my repository for udacity's Arcade game project. Live version can be fou
 
 ## How to play the game
 The goal of the game is for the player to avoid collisions with the bug and for the player to reach the water tile. The game is won when the player successfully reaches the water tile. A modal will be displayed. Use the 'up,down,left,right' arrow keys on the keyboard to move the player in a particular direction.
-To run the game directly on your computer download from https://github.com/lowlah/Arcade-Game and open index.html file in your browser.
+To run the game directly on your computer download  ALL the files from https://github.com/lowlah/Arcade-Game and open index.html file in your browser.
 
 ## Credit
 The game was not developed from scratch. Udacity provided a starter code. 
